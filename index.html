@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./asset/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="toast"></div>
+    <div class="container">
+        <h1 class="text-center text-info">
+            Money Lover
+        </h1>
+        <form class="mb-3 p-2 shadow form">
+            <div class="mb-3">
+                <input type="text" placeholder="Tên" id="name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <input type="number" placeholder="Giá tiền" id="price" class="form-control">
+            </div>
+            <button class="btn btn-primary " id="btn-add">Thêm</button>
+            <div class="d-none justify-content-between " id="btn-group" >
+                <div class="">
+                    <button class="btn btn-dark btn-return ">Quay về</button>
+                    <button class="btn btn-primary btn-save">Lưu</button>
+                </div>
+                <button class="btn btn-danger btn-remove">Xóa</button>
+            </div>
+        </form>
+        <div class="d-flex mb-3 justify-content-between">
+            <h1 class="total"> Tổng chi phí:0</h1>
+            <button class="btn btn-danger btn-delete-all">Xóa tất cả</button>
+        </div>
+        <div class="list">
+            
+        </div>
+    </div>
+    <script src="./asset/index.js"></script>
+</body>
+</html>
